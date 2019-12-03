@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="utf-8">
+            <title>Yank TV</title>
+            <style>
+                table, td, th{border: 1px solid blue;}
+            
+              </style>
+      </head>
+          
+          
+      <body>
+
+<!-- jquery 를 사용하기 위해 jquery 파일을 로드 -->
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<SCRIPT language="javaScript">
+</script>
+
+<script>
+function showPopup() {
+	window.open("테트리스2.html", "a", "width=530, height=700");
+}
+</script>
+
+          <div id="floater"></div>
+           <div class="container">
+               <div class="header"><!--맨위 헤더-->
+                
+                   <img src="Yank tv.jpg.png" width="300" height="70"> 
+                   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                   
+                    <a href="https://www.youtube.com/">
+                    <img src="you.png" width="70" height="70";> </a>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <a href="http://www.afreecatv.com/">
+                    <img src="af.png" width="70" height="70"></a>
+                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <a href="https://tv.naver.com/">
+                    <img src="tvcast_img_v9.png" width="70" height="70"> </a>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <a href="https://tv.kakao.com/">
+                    <img src="ka.png" width="70" height="70">
+                    </a>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <a href="https://www.twitch.tv/">
+                    <img src="tw.png" width="70" height="70"></a>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <a href="https://www.vlive.tv/home/new">
+                    <img src="VL.png" width="70" height="70"></a>
+               </div>
+               
+               <div class="content">
+               <div class="BT">
+               
+               <br>
+               <button type="buton" id="home"  style="width:140px;display:block;word-break:break-all;"><img src="home-icon.png"width="40" height="40" ><br><b>홈</b>
+               <div style="width:100%;">
+               </div></button>
+               
+               <button type="buton" id="Game" style="width:140px;display:block;word-break:break-all;"><img src="console.png"width="40" height="40" ><br><b>게임</b>
+               <div style="width:100%;">
+               </div></button>
+               
+               <button type="buton" id="Sports" style="width:140px;display:block;word-break:break-all;"><img src="soccer-ball.png"width="40" height="40" ><br><b>스포츠</b>
+               <div style="width:100%;">
+               </div></button>
+               
+               <button type="buton" id="Music" style="width:140px;display:block;word-break:break-all;"><img src="speaker.png"width="40" height="40" ><br><b>음악</b>
+               <div style="width:100%;">
+               </div></button>
+               
+               <button type="buton" id="Cooking" style="width:140px;display:block;word-break:break-all;"><img src="cooking.png"width="40" height="40" ><br><b>요리</b>
+               <div style="width:100%;">
+               </div></button>
+
+                <button type="buton" id="Tgame" onclick="showPopup();" style="width:140px;display:block;word-break:break-all;"><img src="TTTT.png"width="40" height="40" ><br><b>테트리스게임</b>
+               <div style="width:100%;">
+               </div></button>
+               </div>
+               
+               </div> <!--왼쪽 버튼 넣는곳-->
+               
+               <!-- 플랫폼사진 + 동영상 넣는곳 -->
+               <div class="aside">
+               <div class="youtubebox"> 
+               <img src="youtube.png" width="300" height="120">
+               </div>
+                 
+               <div class="box">
+
+                 <iframe id="Youtube1" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 <iframe id="Youtube2" width="350" height="250" src="https://www.youtube.com/embed/oFs2R-QCHHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 <iframe id="Youtube3" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 <iframe id="Youtube4" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                 
+	     <div class="text1">
+                 <a title="19/20 UCL 조별5차전" class="yt-simple-endpoint style-scope ytd-rich-grid-video-renderer" id="video-title" aria-label="19/20 UCL 조별5차전" href="https://www.youtube.com/watch?v=zylJsOFzJFo">[19/20 UCL 조별5차] 바르셀로나 vs 도르트문트</a>
+                 </div>
+                 
+              <div class="text2">
+                 <a title="코미딕빅리그" class="yt-simple-endpoint style-scope ytd-rich-grid-video-renderer" id="video-title" aria-label="자신의 물건(?)을 지키기위해 고군분투하는 황제성" href="https://www.youtube.com/watch?v=oFs2R-QCHHs">자신의 물건(?)을 지키기위해 고군분투하는<br> 황제성 해피엔드 모음ㅋㅋㅋ</a>
+              </div>
+              <div class="text3">
+                 <a title="19/20 UCL 조별5차전" class="yt-simple-endpoint style-scope ytd-rich-grid-video-renderer" id="video-title" aria-label="19/20 UCL 조별5차전" href="https://www.youtube.com/watch?v=zylJsOFzJFo">[19/20 UCL 조별5차] 바르셀로나 vs 도르트문트</a>
+                 </div>
+                 <div class="text4">
+                 <a title="19/20 UCL 조별5차전" class="yt-simple-endpoint style-scope ytd-rich-grid-video-renderer" id="video-title" aria-label="19/20 UCL 조별5차전" href="https://www.youtube.com/watch?v=zylJsOFzJFo">[19/20 UCL 조별5차] 바르셀로나 vs 도르트문트</a>
+                 </div>
+               <!-- 글자 넣는곳 간격은 직접 조정해야할꺼 같습니다.-->
+                </div>
+                
+               <div class="line">
+               <hr size="4px" width="120%" color="silver" align="center">
+               </div> <!--선 위치확인용-->
+
+               <div class="afreeca">
+               <img src="logo_main.gif" width="350" height="120">
+               </div> 
+               
+               <div class="box2">   
+               <iframe id = "Afreeca1" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Afreeca2" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Afreeca3" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Afreeca4" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+               
+                <!-- 글자 넣는곳 간격은 직접 조정해야할꺼 같습니다.-->
+               
+               </div>
+             
+               <div class="line2">
+               <hr size="4px" width="120%" color="silver" align="center">
+               </div> <!--선 위치확인용-->
+               
+               <div class="naver">
+               <img src="naver%20tv.png" width="300" height="140">
+               </div> 
+                 
+               <div class="box3">   
+               <iframe id = "Naver1" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Naver2" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Naver3" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Naver4" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 <!-- 글자 넣는곳 간격은 직접 조정해야할꺼 같습니다.-->
+             
+               </div>
+               
+               <div class="line3">
+               <hr size="4px" width="120%" color="silver" align="center">
+               </div> <!--선 위치확인용-->
+               
+               <div class="kakao">
+               <img src="kakao.jpg" width="300" height="140">
+               </div> 
+               
+               <div class="box4">   
+               <iframe id = "Kakao1" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Kakao2" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Kakao3" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Kakao4" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 <!-- 글자 넣는곳 간격은 직접 조정해야할꺼 같습니다.-->
+             
+               </div>
+               
+               <div class="line4">
+               <hr size="4px" width="120%" color="silver" align="center">
+               </div> <!--선 위치확인용-->
+
+               <div class="twitch">
+               <img src="twitch.png" width="350" height="140">
+               </div> 
+               
+               <div class="box5">   
+               <iframe id = "Twitch1" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Twitch2" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Twitch3" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Twitch4" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- 글자 넣는곳 간격은 직접 조정해야할꺼 같습니다.-->
+               
+               </div>
+               
+               <div class="line5">
+               <hr size="4px" width="120%" color="silver" align="center">
+               </div> <!--선 위치확인용-->
+               
+               <div class="vlive">
+               <img src="vlive.PNG" width="250" height="90">
+               </div> 
+               
+               <div class="box6">   
+               <iframe id = "Vlive1" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Vlive2" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Vlive3" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe id = "Vlive4" width="350" height="250" src="https://www.youtube.com/embed/zylJsOFzJFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- 글자 넣는곳 간격은 직접 조정해야할꺼 같습니다.-->
+               
+               </div>
+               
+
+               </div>
+              
+           </div>
+
+        <style type="text/css">
+            *{margin:0px; padding:0px;}
+            .container{width:1200px; height:auto; background:#fff; margin:0 auto; float:left;}
+            .header{position:fixed;width:2000px; height:70px; background:#f6f6f6; float:left;}
+            .content{position:fixed;width:140px; height:1900px;top:70px; float:left;background:#f6f6f6; }
+            .aside{width:1500px; height:3500px;float:left; background:#fFF; }
+            .youtubebox{width:1500px; height: 95px; float:left; margin:65px 0 0 250px  }
+            .box{width:1500px;;margin: 180px 0 0 300px }
+            .afreeca{width:1500px; height: 100px; float:left; margin:20px 0 0 250px}
+            .box2{width:1500px;margin:250px 0 0 300px }
+            .naver{width:1500px; height: 95px; float:left;margin:20px 0 0 250px}
+            .box3{width:1500px;margin:180px 0 0 300px }
+            .kakao{width:1500px; height: 95px; float:left;margin:20px 0 0 250px}
+            .box4{width:1500px;margin:180px 0 0 300px }
+            .twitch{width:1500px; height:105px; float:left;margin:20px 0 0 260px}
+            .box5{width:1500px; margin:180px 0 0 300px }
+            .vlive{width:1500px; height: 125px; float:left;margin:20px 0 0 260px }
+            .box6{width:1500px; margin:180px 0 0 300px }
+            .line{width:1525px; height: 5px; float:left;margin:150px 0 0 70px}
+            .line2{width:1525px; height: 5px; float:left;margin:150px 0 0 70px}
+            .line3{width:1525px; height: 5px; float:left;margin:150px 0 0 70px}
+            .line4{width:1525px; height: 5px; float:left;margin:150px 0 0 70px}
+            .line5{width:1525px; height: 5px; float:left;margin:150px 0 0 70px}
+            .BT{margin-top: 200px;}
+            
+            
+            .text1{width:200; height:100px;float:left;margin:0 0 0 0}
+            .text2{width:200; height:100px;float:left;margin:0 0 0 17px}
+            .text3{width:200; height:100px;float:left;margin:0 0 0 47px}
+            .text4{width:200; height:100px;float:left;margin:0 0 0 17px}
+       </style>
+        <!-- text박스 맨 오른쪽이 글자간격 조정하는곳 입니다.-->
+        <!-- 제목 각자할려면(간격맞추기) text박스 24개 필요합니다.-->
+
+<script>
+$("#Game").click(function(){
+
+Y1 = "https://www.youtube.com/embed/gghh2Mo7e0U";
+Y2 = "https://www.youtube.com/embed/ylUNBZZ3EmI";
+Y3 = "https://www.youtube.com/embed/kHDQiCAWH8s";
+Y4 = "https://www.youtube.com/embed/aLHhUPvZDrs";
+$("#Youtube1").attr('src',Y1 );
+$("#Youtube2").attr('src',Y2 );
+$("#Youtube3").attr('src',Y3 );
+$("#Youtube4").attr('src',Y4 );
+
+A1 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=pubg&nStationNo=18362363&nBbsNo=68645545&nTitleNo=49672724&szCategory=00010000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A2 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=pubg&nStationNo=18362363&nBbsNo=67921048&nTitleNo=48641293&szCategory=00010000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A3 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=afgsl&nStationNo=9521573&nBbsNo=66500218&nTitleNo=48068858&szCategory=00010000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A4 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=star2bjmatch&nStationNo=19852234&nBbsNo=62323778&nTitleNo=49448435&szCategory=00010000&szPart=REVIEW&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+$("#Afreeca1").attr('src',A1 );
+$("#Afreeca2").attr('src',A2 );
+$("#Afreeca3").attr('src',A3 );
+$("#Afreeca4").attr('src',A4 );
+
+N1 = "https://tv.naver.com/embed/11276939?autoPlay=false";
+N2 = "https://tv.naver.com/embed/9583769?autoPlay=false";
+N3 = "https://tv.naver.com/embed/11208776?autoPlay=false";
+N4 = "https://tv.naver.com/embed/10280937?autoPlay=false";
+$("#Naver1").attr('src',N1 );
+$("#Naver2").attr('src',N2 );
+$("#Naver3").attr('src',N3 );
+$("#Naver4").attr('src',N4 );
+
+K1 = "https://play-tv.kakao.com/embed/player/cliplink/404166241?service=kakao_tv";
+K2 = "https://play-tv.kakao.com/embed/player/cliplink/404323403?service=kakao_tv";
+K3 = "https://play-tv.kakao.com/embed/player/cliplink/404312917?service=kakao_tv";
+K4 = "https://play-tv.kakao.com/embed/player/cliplink/404348212?service=kakao_tv";
+$("#Kakao1").attr('src',K1 );
+$("#Kakao2").attr('src',K2 );
+$("#Kakao3").attr('src',K3 );
+$("#Kakao4").attr('src',K4 );
+
+T1 = "https://player.twitch.tv/?autoplay=false&video=v514852740";
+T2 = "https://player.twitch.tv/?autoplay=false&video=v515024557";
+T3 = "https://player.twitch.tv/?autoplay=false&video=v513701457";
+T4 = "https://player.twitch.tv/?autoplay=false&video=v513701551";
+$("#Twitch1").attr('src',T1 );
+$("#Twitch2").attr('src',T2 );
+$("#Twitch3").attr('src',T3 );
+$("#Twitch4").attr('src',T4 );
+
+V1 = "https://www.vlive.tv/embed/160248?autoPlay=false";
+V2 = "https://www.vlive.tv/embed/158436?autoPlay=false";
+V3 = "https://www.vlive.tv/embed/154204?autoPlay=false";
+V4 = "https://www.vlive.tv/embed/146219?autoPlay=false";
+$("#Vlive1").attr('src',V1 );
+$("#Vlive2").attr('src',V2 );
+$("#Vlive3").attr('src',V3 );
+$("#Vlive4").attr('src',V4 );
+})
+</script>
+
+<script>
+$("#Sports").click(function(){
+
+Y1 = "https://www.youtube.com/embed/CW3xtKqSAl4";
+Y2 = "https://www.youtube.com/embed/_bvzFmthke0";
+Y3 = "https://www.youtube.com/embed/fRA8xVfqn-E";
+Y4 = "https://www.youtube.com/embed/anj25vUTU54";
+$("#Youtube1").attr('src',Y1 );
+$("#Youtube2").attr('src',Y2 );
+$("#Youtube3").attr('src',Y3 );
+$("#Youtube4").attr('src',Y4 );
+
+A1 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=wony218&nStationNo=11577012&nBbsNo=23452094&nTitleNo=49845707&szCategory=00020000&szPart=REVIEW&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A2 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=e9dongsung&nStationNo=413288&nBbsNo=54983741&nTitleNo=40878950&szCategory=00020000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A3 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=ck04114&nStationNo=4387140&nBbsNo=55825488&nTitleNo=40591748&szCategory=00020000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A4 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=e9dongsung&nStationNo=413288&nBbsNo=54983741&nTitleNo=40021841&szCategory=00020000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+$("#Afreeca1").attr('src',A1 );
+$("#Afreeca2").attr('src',A2 );
+$("#Afreeca3").attr('src',A3 );
+$("#Afreeca4").attr('src',A4 );
+
+N1 = "https://tv.naver.com/embed/11256607?autoPlay=false";
+N2 = "https://tv.naver.com/embed/5886586?autoPlay=false";
+N3 = "https://tv.naver.com/embed/11256643?autoPlay=false";
+N4 = "https://tv.naver.com/embed/11261570?autoPlay=false";
+$("#Naver1").attr('src',N1 );
+$("#Naver2").attr('src',N2 );
+$("#Naver3").attr('src',N3 );
+$("#Naver4").attr('src',N4 );
+
+K1 = "https://play-tv.kakao.com/embed/player/cliplink/404306118?service=kakao_tv";
+K2 = "https://play-tv.kakao.com/embed/player/cliplink/404356846?service=kakao_tv";
+K3 = "https://play-tv.kakao.com/embed/player/cliplink/404359779?service=kakao_tv";
+K4 = "https://play-tv.kakao.com/embed/player/cliplink/404335474?service=kakao_tv";
+$("#Kakao1").attr('src',K1 );
+$("#Kakao2").attr('src',K2 );
+$("#Kakao3").attr('src',K3 );
+$("#Kakao4").attr('src',K4 );
+
+T1 = "https://player.twitch.tv/?autoplay=false&video=v491895387";
+T2 = "https://player.twitch.tv/?autoplay=false&video=v176373390";
+T3 = "https://player.twitch.tv/?autoplay=false&video=v176371883";
+T4 = "https://player.twitch.tv/?autoplay=false&video=v176371118";
+$("#Twitch1").attr('src',T1 );
+$("#Twitch2").attr('src',T2 );
+$("#Twitch3").attr('src',T3 );
+$("#Twitch4").attr('src',T4 );
+
+V1 = "https://www.vlive.tv/embed/158306?autoPlay=false";
+V2 = "https://www.vlive.tv/embed/153262?autoPlay=false";
+V3 = "https://www.vlive.tv/embed/135058?autoPlay=false";
+V4 = "https://www.vlive.tv/embed/155506?autoPlay=false";
+$("#Vlive1").attr('src',V1 );
+$("#Vlive2").attr('src',V2 );
+$("#Vlive3").attr('src',V3 );
+$("#Vlive4").attr('src',V4 );
+})
+</script>
+
+<script>
+$("#Music").click(function(){
+
+Y1 = "https://www.youtube.com/embed/tTgXtrTqhpM";
+Y2 = "https://www.youtube.com/embed/Ek1h8qVCat0";
+Y3 = "https://www.youtube.com/embed/FVOFycytFDE";
+Y4 = "https://www.youtube.com/embed/Yy7wDMdEPjM";
+$("#Youtube1").attr('src',Y1 );
+$("#Youtube2").attr('src',Y2 );
+$("#Youtube3").attr('src',Y3 );
+$("#Youtube4").attr('src',Y4 );
+
+A1 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=lyl9095&nStationNo=5333250&nBbsNo=55949021&nTitleNo=49874759&szCategory=00080000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A2 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=nyopch1&nStationNo=18836645&nBbsNo=64071351&nTitleNo=49880005&szCategory=00080000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A3 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=since821&nStationNo=7681194&nBbsNo=63208027&nTitleNo=49871785&szCategory=00080000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A4 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=since821&nStationNo=7681194&nBbsNo=53622225&nTitleNo=49675354&szCategory=00080000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+$("#Afreeca1").attr('src',A1 );
+$("#Afreeca2").attr('src',A2 );
+$("#Afreeca3").attr('src',A3 );
+$("#Afreeca4").attr('src',A4 );
+
+N1 = "https://tv.naver.com/embed/11250192?autoPlay=false";
+N2 = "https://tv.naver.com/embed/11250194?autoPlay=false";
+N3 = "https://tv.naver.com/embed/11250194?autoPlay=false";
+N4 = "https://tv.naver.com/embed/9372070?autoPlay=false";
+$("#Naver1").attr('src',N1 );
+$("#Naver2").attr('src',N2 );
+$("#Naver3").attr('src',N3 );
+$("#Naver4").attr('src',N4 );
+
+K1 = "https://play-tv.kakao.com/embed/player/cliplink/403265381?service=kakao_tv";
+K2 = "https://play-tv.kakao.com/embed/player/cliplink/402246245?service=kakao_tv";
+K3 = "https://play-tv.kakao.com/embed/player/cliplink/401689365?service=kakao_tv";
+K4 = "https://play-tv.kakao.com/embed/player/cliplink/403059294?service=kakao_tv";
+$("#Kakao1").attr('src',K1 );
+$("#Kakao2").attr('src',K2 );
+$("#Kakao3").attr('src',K3 );
+$("#Kakao4").attr('src',K4 );
+
+T1 = "https://player.twitch.tv/?autoplay=false&video=v134228064";
+T2 = "https://player.twitch.tv/?autoplay=false&video=v514725925";
+T3 = "https://player.twitch.tv/?autoplay=false&video=v515115105";
+T4 = "https://player.twitch.tv/?autoplay=false&video=v514402318";
+$("#Twitch1").attr('src',T1 );
+$("#Twitch2").attr('src',T2 );
+$("#Twitch3").attr('src',T3 );
+$("#Twitch4").attr('src',T4 );
+
+V1 = "https://www.vlive.tv/embed/163524?autoPlay=false";
+V2 = "https://www.vlive.tv/embed/159215?autoPlay=false";
+V3 = "https://www.vlive.tv/embed/159214?autoPlay=false";
+V4 = "https://www.vlive.tv/embed/159213?autoPlay=false";
+$("#Vlive1").attr('src',V1 );
+$("#Vlive2").attr('src',V2 );
+$("#Vlive3").attr('src',V3 );
+$("#Vlive4").attr('src',V4 );
+})
+</script>
+
+<script>
+$("#Cooking").click(function(){
+
+Y1 = "https://www.youtube.com/embed/vz6Hpuss1Lc";
+Y2 = "https://www.youtube.com/embed/NhGSdRgqaZ0";
+Y3 = "https://www.youtube.com/embed/pR5BvTZObts";
+Y4 = "https://www.youtube.com/embed/q1QpLVypVAE";
+$("#Youtube1").attr('src',Y1 );
+$("#Youtube2").attr('src',Y2 );
+$("#Youtube3").attr('src',Y3 );
+$("#Youtube4").attr('src',Y4 );
+
+A1 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=skswldms&nStationNo=3364971&nBbsNo=53845507&nTitleNo=45500539&szCategory=00220000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A2 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=afvod&nStationNo=16587136&nBbsNo=44273632&nTitleNo=40643606&szCategory=00210000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A3 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=afvod&nStationNo=16587136&nBbsNo=44273632&nTitleNo=41677618&szCategory=00220000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+A4 = "http://vod.afreecatv.com/embed.php?type=station&isAfreeca=false&autoPlay=false&showChat=false&szBjId=yeseul13&nStationNo=16006977&nBbsNo=62760991&nTitleNo=48882498&szCategory=00220000&szPart=NORMAL&szVodType=STATION&isEmbedautoPlay=false&szSysType=html5";
+$("#Afreeca1").attr('src',A1 );
+$("#Afreeca2").attr('src',A2 );
+$("#Afreeca3").attr('src',A3 );
+$("#Afreeca4").attr('src',A4 );
+
+N1 = "https://tv.naver.com/embed/11147449?autoPlay=false";
+N2 = "https://tv.naver.com/embed/11235051?autoPlay=false";
+N3 = "https://tv.naver.com/embed/11007498?autoPlay=false";
+N4 = "https://tv.naver.com/embed/11231091?autoPlay=false";
+$("#Naver1").attr('src',N1 );
+$("#Naver2").attr('src',N2 );
+$("#Naver3").attr('src',N3 );
+$("#Naver4").attr('src',N4 );
+
+K1 = "https://play-tv.kakao.com/embed/player/cliplink/404178594?service=kakao_tv";
+K2 = "https://play-tv.kakao.com/embed/player/cliplink/300364255?service=kakao_tv";
+K3 = "https://play-tv.kakao.com/embed/player/cliplink/402353170?service=kakao_tv";
+K4 = "https://play-tv.kakao.com/embed/player/cliplink/402732939?service=kakao_tv";
+$("#Kakao1").attr('src',K1 );
+$("#Kakao2").attr('src',K2 );
+$("#Kakao3").attr('src',K3 );
+$("#Kakao4").attr('src',K4 );
+
+T1 = "https://player.twitch.tv/?autoplay=false&video=v393203065";
+T2 = "https://player.twitch.tv/?autoplay=false&video=v513924125";
+T3 = "https://player.twitch.tv/?autoplay=false&video=v514749263";
+T4 = "https://player.twitch.tv/?autoplay=false&video=v514751765";
+$("#Twitch1").attr('src',T1 );
+$("#Twitch2").attr('src',T2 );
+$("#Twitch3").attr('src',T3 );
+$("#Twitch4").attr('src',T4 );
+
+V1 = "https://www.vlive.tv/embed/159902?autoPlay=false";
+V2 = "https://www.vlive.tv/embed/154199?autoPlay=false";
+V3 = "https://www.vlive.tv/embed/159769?autoPlay=false";
+V4 = "https://www.vlive.tv/embed/157660?autoPlay=false";
+$("#Vlive1").attr('src',V1 );
+$("#Vlive2").attr('src',V2 );
+$("#Vlive3").attr('src',V3 );
+$("#Vlive4").attr('src',V4 );
+})
+</script>
+
+</body>
+</html>

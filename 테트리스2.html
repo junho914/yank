@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Tetris </title>
+	<style>
+		canvas {
+			display : block;
+			margin : auto;
+			border : 1px solid gray;
+			background-color : black;
+			
+		}
+
+	#playbutton {
+		display : block;
+		width : 70px;
+		height : 40px;
+		margin : auto;
+		margin-top : 10px;
+		font-size : 25px;
+		font-weight: bold;
+		border : 1px solid white;
+		background-color : white;
+		cursor: pointer;
+	}
+
+</style>
+</head>
+<body>
+<canvas width='500' height='600'> </canvas>
+<button id="playbutton" onclick="playButtonClicked();">Start</button>
+<script src='js/a.js'> </script>
+<script src='js/b.js'> </script>
+<script src='js/c.js'> </script>
+* ↑ : 모양 변환 키 &nbsp; &nbsp; * →, ←  :  방향 키 <br>
+</body>
+</html>
